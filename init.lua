@@ -18,7 +18,14 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "neosolarized",
+
+  -- Add highlight groups in any theme
+  highlights = {
+      init = { -- this table overrides highlights in all themes
+         Normal = { bg = "#000000" },
+       },
+  },
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
