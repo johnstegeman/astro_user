@@ -35,7 +35,7 @@
 	filename = {
 		[".zshrc"] = "sh",
 		[".zshenv"] = "sh",
-		["dot_zshenv"] = "sh",
+		["dot_zshrc"] = "sh",
 	},
 }
 --   local_vim.opt.whichwrap = vim.opt.whichwrap - { 'b', 's' } -- removing option from list
