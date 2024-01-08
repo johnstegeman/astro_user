@@ -1,5 +1,6 @@
 return {
   -- Configure AstroNvim updates
+  -- TODO
   updater = {
     remote = "origin", -- remote to use
     channel = "stable", -- "stable" or "nightly"
@@ -21,11 +22,11 @@ return {
   colorscheme = "neosolarized",
 
   -- Add highlight groups in any theme
-  highlights = {
-      init = { -- this table overrides highlights in all themes
-         Normal = { bg = "#000000" },
-       },
-  },
+--  highlights = {
+--      init = { -- this table overrides highlights in all themes
+--         Normal = { bg = "#000000" },
+--       },
+--  },
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
