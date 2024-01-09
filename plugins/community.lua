@@ -5,7 +5,6 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   { import = "astrocommunity.colorscheme.neosolarized-nvim"}, 
-  { import = "astrocommunity.colorscheme.everforest"}, 
   { import = "astrocommunity.colorscheme.monokai-pro-nvim"}, 
   { import = "astrocommunity.colorscheme.onedarkpro-nvim"}, 
   -- { import = "astrocommunity.motion.leap-nvim"},
