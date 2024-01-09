@@ -21,12 +21,6 @@ return {
   -- Set colorscheme to use
   colorscheme = "neosolarized",
 
-  -- Add highlight groups in any theme
---  highlights = {
---      init = { -- this table overrides highlights in all themes
---         Normal = { bg = "#000000" },
---       },
---  },
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -77,6 +71,9 @@ return {
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
+    require("notify").setup({
+      background_colour = "#000000",
+      })
     -- Set up custom filetypes
     -- vim.filetype.add {
     --   extension = {
