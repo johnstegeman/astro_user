@@ -27,17 +27,7 @@
    local_vim.opt.number = true
    local_vim.opt.spell = false
    local_vim.opt.wrap = false
-   vim.filetype.add {
-	extension = {
-		zsh = "sh",
-		sh = "sh", -- force sh-files with zsh-shebang to still get sh as filetype
-	},
-	filename = {
-		[".zshrc"] = "sh",
-		[".zshenv"] = "sh",
-		["dot_zshrc"] = "sh",
-	},
-}
+
 --   local_vim.opt.whichwrap = vim.opt.whichwrap - { 'b', 's' } -- removing option from list
 --   local_vim.opt.shortmess = vim.opt.shortmess + { I = true } -- add to option list
 
