@@ -90,7 +90,6 @@ return {
     }
   end,
 
-  -- modify variables used by heirline but not defined in the setup call directly
   plugins = {
   },
 }

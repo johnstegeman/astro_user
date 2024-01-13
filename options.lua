@@ -27,6 +27,7 @@
    local_vim.opt.number = true
    local_vim.opt.spell = false
    local_vim.opt.wrap = false
+   local_vim.opt.scrolloff = 5
 
 --   local_vim.opt.whichwrap = vim.opt.whichwrap - { 'b', 's' } -- removing option from list
 --   local_vim.opt.shortmess = vim.opt.shortmess + { I = true } -- add to option list
