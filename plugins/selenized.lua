@@ -1,0 +1,1 @@
+return { "calind/selenized.nvim" }
