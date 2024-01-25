@@ -10,6 +10,5 @@ return {
   -- { import = "astrocommunity.motion.leap-nvim"},
   { import = "astrocommunity.motion.flash-nvim", event = "VeryLazy",},
   { import = "astrocommunity.utility.noice-nvim", event = "VeryLazy",},
-  { import = "astrocommunity.editing-support.todo-comments-nvim", event = "VeryLazy",}
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }

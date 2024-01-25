@@ -1,5 +1,9 @@
 return {
   { "nvim-lualine/lualine.nvim", event = "VeryLazy", 
+    dependencies = { 
+    "nvim-tree/nvim-web-devicons",
+  --  "askfiy/visual_studio_code"
+  },
     config = function()
       require("lualine").setup({
         options = {
@@ -13,7 +17,7 @@ return {
             statusline = 100,
           },
         },
-        -- sections = require("visual_studio_code").get_lualine_sections(),
+    --    sections = require("visual_studio_code").get_lualine_sections(),
       })
     end
   },
