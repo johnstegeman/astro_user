@@ -10,6 +10,7 @@ return {
       { "sr", desc = "Replace Surrounding" },
       { "sn", desc = "Update N Lines" },
     },
+    lazy=false,
     opts = {
       mappings = {
         add = "sa", -- Add surroundina in Normal and Visual modes
