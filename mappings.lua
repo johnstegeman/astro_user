@@ -32,13 +32,11 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-  },
-  t = {
-    -- setting a mapping to false will disable it
-    -- ["<esc>"] = false,
-  },
-  -- Set up some custom remappings to support Colemak DH
-  [""] = {
+    -- Undo
+    ["l"] = {"u"},
+    -- Insert
+    ["k"] = {"i"},
+    ["K"] = {"I"},
     -- Cursor movement
     ["i"] = {"l"},
     ["u"] = {"k"},
@@ -50,14 +48,13 @@ return {
     [";"] = {":"},
     ["Q"] = {":q<CR>"},
     ["S"] = {":q<CR>"},
-    -- Undo
-    ["l"] = {"u"},
-    -- Insert
-    ["k"] = {"i"},
-    ["K"] = {"I"},
     -- N start of line
     ["N"] = {"0"},
     -- I end of line
     ["I"] = {"$"},
+  },
+  t = {
+    -- setting a mapping to false will disable it
+    -- ["<esc>"] = false,
   },
 }
