@@ -37,4 +37,27 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  -- Set up some custom remappings to support Colemak DH
+  [""] = {
+    -- Cursor movement
+    ["i"] = {"l"},
+    ["u"] = {"k"},
+    ["n"] = {"h"},
+    ["e"] = {"j"},
+    ["gu"] = {"gk"},
+    ["ge"] = {"gj"},
+    -- General
+    [";"] = {":"},
+    ["Q"] = {":q<CR>"},
+    ["S"] = {":q<CR>"},
+    -- Undo
+    ["l"] = {"u"},
+    -- Insert
+    ["k"] = {"i"},
+    ["K"] = {"I"},
+    -- N start of line
+    ["N"] = {"0"},
+    -- I end of line
+    ["I"] = {"$"},
+  },
 }
