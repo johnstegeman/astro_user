@@ -36,25 +36,25 @@ return {
     -- Colemak DH stuff
     --
     -- Undo
-    ["l"] = {"u"},
+    ["l"] = {"u", remap = false, desc = "Undo"},
     -- Insert
-    ["k"] = {"i"},
-    ["K"] = {"I"},
+    ["k"] = {"i", remap = false, desc = "Insert"},
+    ["K"] = {"I", remap = false, desc = "Insert at beginning of line"},
     -- Cursor movement
-    ["i"] = {"<Right>"},
-    ["u"] = {"<Up>"},
-    ["n"] = {"<Left>"},
-    ["e"] = {"<Down>"},
-    ["gu"] = {"gk"},
-    ["ge"] = {"gj"},
+    ["i"] = {"<Right>", remap = false},
+    ["u"] = {"<Up>", remap = false},
+    ["n"] = {"<Left>", remap = false},
+    ["e"] = {"<Down>", remap = false},
+    ["gu"] = {"gk", remap = false},
+    ["ge"] = {"gj", remap = false},
     -- General
-    [";"] = {":"},
-    ["Q"] = {":q<CR>"},
-    ["S"] = {":q<CR>"},
+    [";"] = {":", remap = false},
+    ["Q"] = {":q<CR>"}, remap = false,
+    ["S"] = {":s<CR>"}, remap = false,
     -- N start of line
-    ["N"] = {"0"},
+    ["N"] = {"0", remap = false},
     -- I end of line
-    ["I"] = {"$"},
+    ["I"] = {"$", remap = false},
   },
   t = {
     -- setting a mapping to false will disable it
