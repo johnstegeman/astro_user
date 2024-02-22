@@ -39,7 +39,7 @@ return {
     ["l"] = {"u"},
     -- Insert
     ["k"] = {"i"},
-    -- This gets mapped for LSP ["K"] = {"I"},
+    ["K"] = {"I"},
     -- Cursor movement
     ["i"] = {"<Right>"},
     ["u"] = {"<Up>"},
