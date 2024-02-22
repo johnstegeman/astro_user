@@ -49,8 +49,8 @@ return {
     ["ge"] = {"gj", remap = false},
     -- General
     [";"] = {":", remap = false},
-    ["Q"] = {":q<CR>"}, remap = false,
-    ["S"] = {":s<CR>"}, remap = false,
+    ["Q"] = {":q<CR>", remap = false},
+    ["S"] = {":s<CR>", remap = false},
     -- N start of line
     ["N"] = {"0", remap = false},
     -- I end of line
