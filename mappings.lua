@@ -32,16 +32,19 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- 
+    -- Colemak DH stuff
+    --
     -- Undo
     ["l"] = {"u"},
     -- Insert
     ["k"] = {"i"},
-    ["K"] = {"I"},
+    -- This gets mapped for LSP ["K"] = {"I"},
     -- Cursor movement
-    ["i"] = {"l"},
-    ["u"] = {"k"},
-    ["n"] = {"h"},
-    ["e"] = {"j"},
+    ["i"] = {"<Right>"},
+    ["u"] = {"<Up>"},
+    ["n"] = {"<Left>"},
+    ["e"] = {"<Down>"},
     ["gu"] = {"gk"},
     ["ge"] = {"gj"},
     -- General
