@@ -9,6 +9,5 @@ return {
   { import = "astrocommunity.colorscheme.onedarkpro-nvim"}, 
   -- { import = "astrocommunity.motion.leap-nvim"},
   { import = "astrocommunity.motion.flash-nvim", event = "VeryLazy",},
-  { import = "astrocommunity.utility.noice-nvim", event = "VeryLazy",},
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
