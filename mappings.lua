@@ -38,13 +38,13 @@ return {
     -- Undo
     ["l"] = {"u", remap = false, desc = "Undo"},
     -- Insert
-    ["k"] = {"i"},
-    ["K"] = {"I"},
+    ["k"] = {"i", desc = "Insert at cursor"},
+    ["K"] = {"I", desc = "Insert at beginning of line"},
     -- Cursor movement
-    ["i"] = {"<Right>", remap = false},
-    ["u"] = {"<Up>", remap = false},
-    ["n"] = {"<Left>", remap = false},
-    ["e"] = {"<Down>", remap = false},
+    ["i"] = {"<Right>", desc = "right", remap = false},
+    ["u"] = {"<Up>", desc = "up", remap = false},
+    ["n"] = {"<Left>", desc = "left", remap = false},
+    ["e"] = {"<Down>", desc = "down", remap = false},
     ["gu"] = {"gk", remap = false},
     ["ge"] = {"gj", remap = false},
     -- General
@@ -52,9 +52,9 @@ return {
     ["Q"] = {":q<CR>", remap = false},
     ["S"] = {":s<CR>", remap = false},
     -- N start of line
-    ["N"] = {"0", remap = false},
+    ["N"] = {"0", desc = "Go to start of line", remap = false},
     -- I end of line
-    ["I"] = {"$", remap = false},
+    ["I"] = {"$", desc = "Go to end of line", remap = false},
   },
   t = {
     -- setting a mapping to false will disable it
