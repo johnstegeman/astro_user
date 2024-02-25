@@ -1,4 +1,4 @@
 return {
   -- Set colorscheme to use
-  colorscheme = "neosolarized",
+  colorscheme = "solarized-osaka",
 }
