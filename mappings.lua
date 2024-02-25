@@ -38,8 +38,8 @@ return {
     -- Undo
     ["l"] = {"u", remap = false, desc = "Undo"},
     -- Insert
-    ["k"] = {"i", desc = "Insert at cursor"},
-    ["K"] = {"I", desc = "Insert at beginning of line"},
+    ["k"] = {"i"},
+    ["K"] = {"I"},
     -- Cursor movement
     ["i"] = {"<Right>", desc = "right", remap = false},
     ["u"] = {"<Up>", desc = "up", remap = false},
